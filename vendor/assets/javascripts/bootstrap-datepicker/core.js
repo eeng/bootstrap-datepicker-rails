@@ -765,6 +765,7 @@
 					}
 					break;
 				case 13: // enter
+					this.setValue();
 					this.hide();
 					e.preventDefault();
 					break;
